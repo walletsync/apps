@@ -128,7 +128,7 @@ function MobileLinkDisplay(props: MobileLinkDisplayProps) {
               const selected = page === pageNumber;
               return (
                 <a
-                  style={{ margin: "auto 10px", fontWeight: selected ? "bold" : "normal" }}
+                  style={{ margin: "auto 20px", fontWeight: selected ? "bold" : "normal" }}
                   onClick={() => setPage(pageNumber)}
                 >
                   {pageNumber}
